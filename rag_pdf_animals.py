@@ -40,10 +40,10 @@ def create_table():
 # Funzione per salvare gradualmente le risposte nel database
 def save_to_db(result):
     conn = psycopg2.connect(
-        host="localhost",
-        database="benchmarkllm",
-        user="postgres",
-        password="nicola"
+        host="",
+        database="",
+        user="",
+        password=""
     )
     cursor = conn.cursor()
 
