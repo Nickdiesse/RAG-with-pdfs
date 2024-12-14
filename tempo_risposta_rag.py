@@ -4,9 +4,9 @@ import psycopg2
 try:
     conn = psycopg2.connect(
         host="localhost",    
-        database="benchmarkllm",  
-        user="postgres",    
-        password="nicola"  
+        database="",  
+        user="",    
+        password=""  
     )
 
     cursor = conn.cursor()
