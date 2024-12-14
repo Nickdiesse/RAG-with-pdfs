@@ -10,9 +10,9 @@ embedding_model = SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2')
 def retrieve_responses():
     conn = psycopg2.connect(
         host="localhost",
-        database="benchmarkllm",
-        user="postgres",
-        password="nicola"
+        database="",
+        user="",
+        password=""
     )
     cursor = conn.cursor()
 
