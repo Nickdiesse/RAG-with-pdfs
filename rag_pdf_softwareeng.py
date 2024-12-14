@@ -13,9 +13,9 @@ import psycopg2
 def create_table():
     conn = psycopg2.connect(
         host="localhost",
-        database="benchmarkllm",
-        user="postgres",
-        password="nicola"
+        database="",
+        user="",
+        password=""
     )
     cursor = conn.cursor()
 
@@ -40,9 +40,9 @@ def create_table():
 def save_to_db(result):
     conn = psycopg2.connect(
         host="localhost",
-        database="benchmarkllm",
-        user="postgres",
-        password="nicola"
+        database="",
+        user="",
+        password=""
     )
     cursor = conn.cursor()
 
