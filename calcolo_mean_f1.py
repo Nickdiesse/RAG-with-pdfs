@@ -4,9 +4,9 @@ import psycopg2
 def retrieve_f1_scores():
     conn = psycopg2.connect(
         host="localhost",
-        database="benchmarkllm",
-        user="postgres",
-        password="nicola"
+        database="",
+        user="",
+        password=""
     )
     cursor = conn.cursor()
 
